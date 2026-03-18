@@ -1,3 +1,3 @@
-FROM prom/prometheus
+FROM grafana/grafana
 
-COPY prometheus/prom.yml /etc/prometheus/prometheus.yml
+ENV GF_SERVER_HTTP_PORT=8080
