@@ -10,4 +10,4 @@ scrape_configs:
     scheme: https
     metrics_path: /metrics
     static_configs:
-      - targets: ['https://crypto-monitor-production-5d1b.up.railway.app']
+      - targets: ['crypto-monitor-production-5d1b.up.railway.app']
